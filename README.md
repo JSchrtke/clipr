@@ -1,4 +1,4 @@
-# No nonsense clip
+# Clipr
 A simple clipboard program
 
 ## Why
@@ -22,5 +22,5 @@ is just a bit cumbersome to type.
 I wanted a simple, cross-platform solution, which this is (hopefully).
 
 ## Usage
-    cat something.txt | nnc
-    nnc | something_else.txt
+    cat something.txt | clipr
+    clipr | something_else.txt

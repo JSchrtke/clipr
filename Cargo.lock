@@ -54,6 +54,15 @@ dependencies = [
 ]
 
 [[package]]
+name = "clipr"
+version = "0.1.0"
+dependencies = [
+ "atty",
+ "copypasta",
+ "copypasta-ext",
+]
+
+[[package]]
 name = "copypasta"
 version = "0.7.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -196,15 +205,6 @@ dependencies = [
  "cfg-if",
  "libc",
  "memoffset",
-]
-
-[[package]]
-name = "nnclip"
-version = "0.1.0"
-dependencies = [
- "atty",
- "copypasta",
- "copypasta-ext",
 ]
 
 [[package]]
