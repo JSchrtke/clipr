@@ -1,6 +1,6 @@
 use atty::{isnt, Stream};
-use copypasta::ClipboardProvider;
 use copypasta_ext::x11_bin::ClipboardContext;
+use copypasta_ext::prelude::ClipboardProvider;
 use std::io::{self, Read, Write};
 
 fn main() {
